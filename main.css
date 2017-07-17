@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.hidden {
+  display: none
+}
+
+input {
+  line-height: 20px;
+  width: 200px;
+  border-radius: 5px
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #287aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  color: #287aff;
+  border: 1px solid #287aff;
+  background-color: white;
+  cursor: pointer;
+}
